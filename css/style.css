@@ -39,16 +39,19 @@ p{
     .navbar-brand{
         margin-right: 0em;   
         letter-spacing: -1px;
-        animation: floating 3s ease-in-out infinite 
+        animation: floating 3s ease-in-out infinite ;
+        font-size: 3.3vw;
     }
     /* FONTS USAGES */
         .navbar-light .navbar-brand {
             font-family: 'fipps',arial,sans-serif;
             
         }
-        .thumb,p {
-            font-size: 1.5em;
+        .thumb,p,.nav-item {
             font-family: 'rainyhearts',arial,sans-serif;
+        }
+        p{
+            font-size: 3vmin;
         }
         .navbar-nav{
             font-weight: 800;
@@ -57,7 +60,9 @@ p{
         .nav-item{
             margin-left: 3vw;
             margin-right: 3vw;
+            font-size: 3.5vmin;
         }
+
     /* FONTS USAGES */
 /* NAVMENU */
 
@@ -86,15 +91,15 @@ p{
     /* floating */
         .floating {  
             animation-name: floating;
-            animation-duration: 3s;
+            animation-duration: 2s;
             animation-iteration-count: infinite;
             animation-timing-function: ease-in-out;
         }
         
         @keyframes floating {
-            0% { transform: translate(0,  -0px); }
-            50%  { transform: translate(0, -5px); }
-            100%   { transform: translate(0, 0px); }    
+            0% { transform: translate(0,  -0vh); }
+            50%  { transform: translate(0, -1vh); }
+            100%   { transform: translate(0, 0vhx); }    
         }
     /* floating */
 /* ANIMATIONS */
