@@ -9,8 +9,8 @@
 
     /* FONTS */
         @font-face {
-            font-family: 'rainyhearts';
-            src: url('./fonts/rainyhearts.ttf') format('truetype');;
+            font-family: 'rainyhearts'; 
+            src: url("./fonts/rainyhearts");
             font-style: normal;
             font-weight: 800;
         }
