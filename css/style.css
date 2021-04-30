@@ -34,6 +34,11 @@
     }
 /* COULEURS */
 
+p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
 /* NAVMENU */
     .menu{
         display: flex;
@@ -86,15 +91,15 @@
     /* floating */
         .floating {  
             animation-name: floating;
-            animation-duration: 2s;
+            animation-duration: 3s;
             animation-iteration-count: infinite;
             animation-timing-function: ease-in-out;
         }
         
         @keyframes floating {
-            0% { transform: translate(0,  0px); }
-            50%  { transform: translate(0, 5px); }
-            100%   { transform: translate(0, -0px); }    
+            0% { transform: translate(0,  -0px); }
+            50%  { transform: translate(0, -5px); }
+            100%   { transform: translate(0, 0px); }    
         }
     /* floating */
 /* ANIMATIONS */
