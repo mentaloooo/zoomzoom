@@ -10,7 +10,7 @@
     /* FONTS */
         @font-face {
             font-family: 'rainyhearts';
-            src: url('../fonts/rainyhearts.ttf');
+            src: url('../fonts/rainyhearts.ttf') format('truetype');;
             font-style: normal;
             font-weight: 800;
         }
