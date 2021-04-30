@@ -16,6 +16,10 @@
         background-color: rgb(255, 185, 35);
     }
 
+    .redish{
+        background-color: rgb(223, 92, 92);
+    }
+
     .navbar {
         justify-content: center;
     }
@@ -42,13 +46,17 @@ p{
             font-family: 'fipps',arial,sans-serif;
             
         }
-        .thumb,nav {
+        .thumb,p {
             font-size: 1.5em;
             font-family: 'rainyhearts',arial,sans-serif;
         }
         .navbar-nav{
             font-weight: 800;
             text-align: center;
+        }
+        .nav-item{
+            margin-left: 3vw;
+            margin-right: 3vw;
         }
     /* FONTS USAGES */
 /* NAVMENU */
