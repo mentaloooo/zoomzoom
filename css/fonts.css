@@ -3,12 +3,10 @@
         font-family: 'rainyhearts'; 
         src: url("../fonts/rainyhearts.ttf") format('truetype');
         font-style: normal;
-        font-weight: 800;
     }
     @font-face {
         font-family: 'fipps';
         src: url('../fonts/Fipps-Regular.otf');
         font-style: normal;
-        font-weight: 800;
     }
 /* FONTS */

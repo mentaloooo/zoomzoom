@@ -30,6 +30,7 @@ p{
     margin-bottom: 0em;
 }
 
+
 /* NAVMENU */
     .menu{
         display: flex;
@@ -43,7 +44,7 @@ p{
         font-size: 3.3vw;
     }
     /* FONTS USAGES */
-        .navbar-light .navbar-brand {
+        .navbar-light, .navbar-brand, .logo {
             font-family: 'fipps',arial,sans-serif;
             
         }
@@ -51,7 +52,9 @@ p{
             font-family: 'rainyhearts',arial,sans-serif;
         }
         p{
-            font-size: 3vmin;
+            font-size: 2em;
+            margin-top: 0em;
+            margin-bottom: 0rem!important;
         }
         .navbar-nav{
             font-weight: 800;
@@ -60,7 +63,7 @@ p{
         .nav-item{
             margin-left: 3vw;
             margin-right: 3vw;
-            font-size: 3.5vmin;
+            font-size: 2em;
         }
 
     /* FONTS USAGES */
