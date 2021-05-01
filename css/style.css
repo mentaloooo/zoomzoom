@@ -41,11 +41,10 @@ p{
         margin-right: 0em;   
         letter-spacing: -1px;
         animation: floating 3s ease-in-out infinite ;
-        font-size: 3.3vw;
     }
     /* FONTS USAGES */
         .navbar-light, .navbar-brand, .logo {
-            font-family: 'fipps',arial,sans-serif;
+            font-family: 'gumgum',arial,sans-serif;
             
         }
         .thumb,p,.nav-item {

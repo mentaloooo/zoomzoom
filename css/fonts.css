@@ -5,6 +5,11 @@
         font-style: normal;
     }
     @font-face {
+        font-family: 'gumgum'; 
+        src: url("../fonts/gumgum.TTF") format('truetype');
+        font-style: normal;
+    }
+    @font-face {
         font-family: 'fipps';
         src: url('../fonts/Fipps-Regular.otf');
         font-style: normal;
