@@ -5,7 +5,7 @@
         .portfolio-item {
             margin-bottom: 25px;
         }
-    /* Bootstrap icons */
+    /* !Bootstrap icons */
 
 
 /*IMPORTS */
@@ -23,15 +23,25 @@
     .navbar {
         justify-content: center;
     }
-/* COULEURS */
+/* !COULEURS */
+
+/* BOOSTRAP RESET */
 
 p{
     margin-top: 0em;
     margin-bottom: 0em;
 }
+a, a:link, a:visited, a:hover, a:active, a:visited:hover {
+    /* :visited:hover is an old IE bug, not sure if it's still relevant */
+    text-decoration:none;
+    color: #000000;
+}
 
+
+/* !BOOSTRAP RESET */
 
 /* NAVMENU */
+
     .menu{
         display: flex;
         flex-direction: column;
@@ -43,18 +53,14 @@ p{
         animation: floating 3s ease-in-out infinite ;
     }
     /* FONTS USAGES */
-        .navbar-light, .navbar-brand, .logo {
+        .navbar-light, .navbar-brand, .logo, h1 {
             font-family: 'gumgum',arial,sans-serif;
             
         }
-        .thumb,p,.nav-item {
+        .thumb,p,.nav-item,p {
             font-family: 'rainyhearts',arial,sans-serif;
         }
-        p{
-            font-size: 2em;
-            margin-top: 0em;
-            margin-bottom: 0rem!important;
-        }
+
         .navbar-nav{
             font-weight: 800;
             text-align: center;
@@ -63,6 +69,10 @@ p{
             margin-left: 3vw;
             margin-right: 3vw;
             font-size: 2em;
+        }
+
+        p{
+            font-size: 2rem;
         }
 
     /* FONTS USAGES */
@@ -108,14 +118,11 @@ p{
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-    position: fixed;
+
     top: 0;
     width: 100%
   }
 
 
-  @media only screen and (max-width: 990px) {
-    .responsive #top .av-main-nav .av-burger-menu-main {
-        position: fixed;
-        top: 50px;
-    }}
+
+
